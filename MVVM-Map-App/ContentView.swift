@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        HStack (spacing: 5) {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)

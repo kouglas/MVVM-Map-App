@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4A29C2232C30CB81002BA74F /* MVVM_Map_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29C2222C30CB81002BA74F /* MVVM_Map_AppApp.swift */; };
 		4A29C2252C30CB81002BA74F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29C2242C30CB81002BA74F /* ContentView.swift */; };
-		4A29C2272C30CB83002BA74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A29C2262C30CB83002BA74F /* Assets.xcassets */; };
 		4A29C22A2C30CB83002BA74F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A29C2292C30CB83002BA74F /* Preview Assets.xcassets */; };
 		4A29C2342C30CB83002BA74F /* MVVM_Map_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29C2332C30CB83002BA74F /* MVVM_Map_AppTests.swift */; };
 		4A29C23E2C30CB83002BA74F /* MVVM_Map_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29C23D2C30CB83002BA74F /* MVVM_Map_AppUITests.swift */; };
 		4A29C2402C30CB83002BA74F /* MVVM_Map_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29C23F2C30CB83002BA74F /* MVVM_Map_AppUITestsLaunchTests.swift */; };
+		4A29C24D2C30CD10002BA74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A29C24C2C30CD10002BA74F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,13 @@
 		4A29C21F2C30CB81002BA74F /* MVVM-Map-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Map-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A29C2222C30CB81002BA74F /* MVVM_Map_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Map_AppApp.swift; sourceTree = "<group>"; };
 		4A29C2242C30CB81002BA74F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4A29C2262C30CB83002BA74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A29C2292C30CB83002BA74F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A29C22F2C30CB83002BA74F /* MVVM-Map-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Map-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A29C2332C30CB83002BA74F /* MVVM_Map_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Map_AppTests.swift; sourceTree = "<group>"; };
 		4A29C2392C30CB83002BA74F /* MVVM-Map-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Map-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A29C23D2C30CB83002BA74F /* MVVM_Map_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Map_AppUITests.swift; sourceTree = "<group>"; };
 		4A29C23F2C30CB83002BA74F /* MVVM_Map_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Map_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A29C24C2C30CD10002BA74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			children = (
 				4A29C2222C30CB81002BA74F /* MVVM_Map_AppApp.swift */,
 				4A29C2242C30CB81002BA74F /* ContentView.swift */,
-				4A29C2262C30CB83002BA74F /* Assets.xcassets */,
+				4A29C24C2C30CD10002BA74F /* Assets.xcassets */,
 				4A29C2282C30CB83002BA74F /* Preview Content */,
 			);
 			path = "MVVM-Map-App";
@@ -231,8 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A29C24D2C30CD10002BA74F /* Assets.xcassets in Resources */,
 				4A29C22A2C30CB83002BA74F /* Preview Assets.xcassets in Resources */,
-				4A29C2272C30CB83002BA74F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
